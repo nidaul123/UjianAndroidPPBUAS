@@ -62,13 +62,13 @@ public class MainActivity extends AppCompatActivity {
     }
         private String getKategoriUmur(int umur) {
         if (umur < 10) {
-            return "Anak";
+            return "Anak-Anak";
         } else if (umur < 20) {
             return "Remaja";
         } else if (umur < 40) {
             return "Dewasa";
         } else {
-            return "Orang Tua";
+            return "Tua";
         }
     }
 }
